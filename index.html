@@ -129,8 +129,8 @@
 
         .logo-text h1 {
             margin: 0;
-            font-weight: 800;
-            font-size: 3.2rem;
+            font-weight: 500;
+            font-size: 2.1rem;
             background: linear-gradient(135deg, #3b82f6 0%, #00d1ff 50%, #8a4cbb 100%);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
@@ -616,10 +616,37 @@
             transition: all 0.8s ease;
         }
 
-        .scroll-reveal.revealed {
-            opacity: 1;
-            transform: translateY(0);
-        }
+                 .scroll-reveal.revealed {
+             opacity: 1;
+             transform: translateY(0);
+         }
+
+         /* Aviso de confidencialidad */
+         .confidentiality-notice {
+             margin-top: 20px;
+             padding: 15px;
+             background: rgba(0, 0, 0, 0.2);
+             border-radius: 8px;
+             border-left: 4px solid #3b82f6;
+         }
+
+         .confidentiality-notice hr {
+             border: 0;
+             height: 1px;
+             background: linear-gradient(90deg, transparent, rgba(59, 130, 246, 0.5), transparent);
+             margin: 10px 0 15px;
+         }
+
+         .confidentiality-notice p {
+             font-size: 0.8rem;
+             line-height: 1.5;
+             margin-bottom: 10px;
+             color: #cbd5e1;
+         }
+
+         .confidentiality-notice strong {
+             color: #3b82f6;
+         }
     </style>
 </head>
 <body>
@@ -628,7 +655,7 @@
             <div class="logo-container">
                 <img src="logo2.png" alt="GProA Technology Logo" class="gproa-logo">
                 <div class="logo-text">
-                    <h1>GProA Technology</h1>
+                    <h1>GProA TECHNOLOGY S. de R.L. de C.V.</h1>
                     <p>Desarrollo de Tecnologías Emergentes</p>
                     <p>&</p>
                     <p>Gestión de Proyectos de Automatización con IA</p>
@@ -809,8 +836,16 @@
                 <img src="logo2.png" alt="GProA Technology Logo" class="footer-logo">
                 <div>
                     <p><strong>GProA Technology S. de R.L. de C.V.</strong> - Innovación que impulsa resultados</p>
-                    <p>Email: admin@gproatechnology.com | Web: www.gproatechnology.com</p>
+                    <p>admin@gproatechnology.com | www.gproatechnology.com | +52 468 120 8570</p>
                     <p>Desarrollo de Tecnologías Emergentes & Gestión de Proyectos de Automatización con IA</p>
+                    
+                    <!-- Aviso de confidencialidad añadido -->
+                    <div class="confidentiality-notice">
+                        <hr>
+                        <p><strong>AVISO DE CONFIDENCIALIDAD:</strong> </p>
+                        <p>La información contenida en este documento es confidencial y de propiedad exclusiva de GProA Technology. Está estrictamente prohibida su distribución, copia o divulgación total o parcial a terceros sin autorización expresa por escrito.</p>
+                        <p>Este dossier está destinado exclusivamente para el uso interno del departamento de Ingeniería de Planta de Mission Hills. GProA Technology se compromete a mantener la integridad, confidencialidad y seguridad de toda la información compartida, de acuerdo con las regulaciones aplicables de protección de datos.</p>
+                    </div>
                 </div>
             </div>
         </div>
